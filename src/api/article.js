@@ -24,6 +24,14 @@ export function fetchPv(pv) {
   })
 }
 
+export function fetchTs(ts) {
+  return request({
+    url: '/vue-element-admin/article/pv',
+    method: 'get',
+    params: { ts }
+  })
+}
+
 export function createArticle(data) {
   return request({
     url: '/vue-element-admin/article/create',
