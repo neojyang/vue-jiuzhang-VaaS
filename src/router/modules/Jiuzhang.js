@@ -37,6 +37,12 @@ const jiuzhangRouter = {
       meta: { title: 'Vdu Deployment' }
     },
     {
+      path: 'Case',
+      component: () => import('@/views/jiuzhang/case'),
+      name: 'Case',
+      meta: { title: 'Case' }
+    },
+    {
       path: 'validation-result',
       component: () => import('@/views/jiuzhang/validation-result'),
       name: 'ValidationResult',
